@@ -11,7 +11,8 @@ use Mix.Config
 # You can configure for your application as:
 #
 #     config :caesar, key: :value
-#
+config :caesar, alphabet_size: 26
+# config :logger, compile_time_purge_level: :info
 # And access this configuration in your application as:
 #
 #     Application.get_env(:caesar, :key)
