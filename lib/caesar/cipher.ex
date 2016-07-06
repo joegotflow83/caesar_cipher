@@ -45,5 +45,3 @@ defmodule Caesar.Cipher do
     base_letter + rem(char - normalize.(base_letter) - shift_num, @alphabet_size)
   end
 end
-
-Caesar.Cipher.encrypt("abc", 1)
